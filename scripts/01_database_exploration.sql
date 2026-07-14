@@ -20,7 +20,7 @@ SELECT
     TABLE_TYPE
 FROM INFORMATION_SCHEMA.TABLES;
 
--- Retrieve all columns for a specific table (dim_customers)
+-- Retrieve all columns for a particular table (dim_customers)
 SELECT 
     COLUMN_NAME, 
     DATA_TYPE, 
