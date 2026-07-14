@@ -15,6 +15,7 @@ SQL Functions Used:
 
 -- Analyse sales performance over time
 -- Quick Date Functions
+
 SELECT
     YEAR(order_date) AS order_year,
     MONTH(order_date) AS order_month,
